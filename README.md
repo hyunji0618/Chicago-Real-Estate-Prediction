@@ -33,7 +33,7 @@ The results aim to offer actionable insights into Chicago's real estate trends a
 
 ## Project Highlights
 1. **Significant Performance Improvements**:
-   - Improved \( R^2 \) by **33.18%** and reduced MSE by **99.99%** and using Huber Regression compared to the baseline OLS model.
+   - Improved $R^2$ by **33.18%** and reduced MSE by **99.99%** and using Huber Regression compared to the baseline OLS model.
 2. **Key Feature Insights**:
    - Features such as `baths_full` showed the most significant positive impact on property prices.
    - Interaction terms revealed diminishing returns for certain property attributes.
@@ -50,17 +50,17 @@ The results aim to offer actionable insights into Chicago's real estate trends a
 
 ## Results
 
-The performance of the models was evaluated based on various metrics, including Mean Squared Error (MSE), Mean Absolute Error (MAE), \(R^2\), and Adjusted \(R^2\). The results demonstrate significant improvements achieved through robust regression techniques and feature engineering.
+The performance of the models was evaluated based on various metrics, including Mean Squared Error (MSE), Mean Absolute Error (MAE), $R^2$, and Adjusted $R^2$. The results demonstrate significant improvements achieved through robust regression techniques and feature engineering.
 
 ### Baseline OLS Regression (No Preprocessing)
-- **\(R^2\)**: 0.5618
-- **Adjusted \(R^2\)**: 0.5477
+- **$R^2$**: 0.5618
+- **Adjusted $R^2$**: 0.5477
 - **MSE**: 623,761,136,340.02
 - **MAE**: 380,299.01
 
 ### Final Huber Regression Model
-- **\(R^2\)**: 0.7478 (Improved by **33.18%** from OLS)
-- **Adjusted \(R^2\)**: 0.7264 (Improved by **32.71%** from OLS)
+- **$R^2$**: 0.7478 (Improved by **33.18%** from OLS)
+- **Adjusted $R^2$**: 0.7264 (Improved by **32.71%** from OLS)
 - **MSE**: 0.2631 (Reduced by **99.99%** compared to OLS)
 - **MAE**: 0.3928 (Reduced by **99.90%** compared to OLS)
 
