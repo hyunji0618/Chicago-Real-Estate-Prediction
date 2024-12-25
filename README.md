@@ -17,7 +17,7 @@ The results aim to offer actionable insights into Chicago's real estate trends a
   - Forward selection to identify the most impactful features.
 - **Model Evaluation**:
   - Comprehensive diagnostics such as multicollinearity, heteroskedasticity, and residual normality.
-  - Comparison of models based on metrics such as Mean Squared Error (MSE) and \( R^2 \) scores.
+  - Comparison of models based on metrics such as Mean Squared Error (MSE) and $R^2$ scores.
 
 ---
 
